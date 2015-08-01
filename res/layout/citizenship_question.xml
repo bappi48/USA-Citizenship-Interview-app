@@ -5,19 +5,38 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical" >
         
-        <TextView 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TEST"
-            android:textAppearance="?android:attr/textAppearanceMedium"/>
-        <TextView 
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TEST2"
-            android:textAppearance="?android:attr/textAppearanceSmall"/>
+		<RelativeLayout 
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content">
+		    		    
+		    <TextView 
+		        android:id="@+id/number1"
+		        android:layout_width="wrap_content"
+		        android:layout_height="match_parent"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:text="100. "/>
+		    <TextView 
+		        android:id="@+id/question1"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/question1"
+	            android:textAppearance="?android:attr/textAppearanceLarge"
+	            android:layout_toRightOf="@id/number1"/>
+        	<TextView 
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/answer1"
+	            android:textAppearance="?android:attr/textAppearanceMedium"
+	            android:layout_toRightOf="@id/number1"
+	            android:layout_below="@id/question1"/>
+		    
+		</RelativeLayout>        
+
+        
+        
         
         
         

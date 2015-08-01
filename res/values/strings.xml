@@ -4,5 +4,14 @@
     <string name="app_name">USA Citizenship Test</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    
+    <string name="question1">What is the supreme law of the land?</string>
+    <string name="answer1">▪ the Constitution</string>
+    
+  
+    
+    
+    
+    
 
 </resources>
