@@ -4,6 +4,7 @@
     <string name="app_name">USA Citizenship Test</string>
     <string name="action_settings">Settings</string>
 
+    <string name="only_study">* If you are 65 years old or older and have been a legal permanent resident of the United States for 20 or more years, you may study just the questions that have been marked with an asterisk (*).</string>
     
     <string name="number1">1.</string>
     <string name="question1">What is the supreme law of the land?</string>
@@ -147,8 +148,7 @@
     
     <string name="number36">36.</string>
     <string name="question36">What are two Cabinet-level positions?</string>
-    <string name="answer36">▪ Secretary of Agriculture\n▪ Secretary of Commerce\n▪ Secretary of Defense\n▪ Secretary of Education\n▪ Secretary of Energy\n▪ Secretary of Health and Human Services\n▪ Secretary of Homeland Security\n▪ Secretary of Housing and Urban Development\n
-							▪ Secretary of the Interior\n▪ Secretary of Labor\n▪ Secretary of State\n▪ Secretary of Transportation\n▪ Secretary of the Treasury\n▪ Secretary of Veterans Affairs\n▪ Attorney General\n▪ Vice President</string>
+    <string name="answer36">▪ Secretary of Agriculture\n▪ Secretary of Commerce\n▪ Secretary of Defense\n▪ Secretary of Education\n▪ Secretary of Energy\n▪ Secretary of Health and Human Services\n▪ Secretary of Homeland Security\n▪ Secretary of Housing and Urban Development\n▪ Secretary of the Interior\n▪ Secretary of Labor\n▪ Secretary of State\n▪ Secretary of Transportation\n▪ Secretary of the Treasury\n▪ Secretary of Veterans Affairs\n▪ Attorney General\n▪ Vice President</string>
     
     <string name="number37">37.</string>
     <string name="question37">What does the judicial branch do?</string>
@@ -216,12 +216,7 @@
     
     <string name="number53">53.</string>
     <string name="question53">What is one promise you make when you become a United States citizen?</string>
-    <string name="answer53">▪ give up loyalty to other countries\n
-        					▪ defend the Constitution and laws of the United States\n
-							▪ obey the laws of the United States\n
-							▪ serve in the U.S. military (if needed)\n
-							▪ serve (do important work for) the nation (if needed)\n
-							▪ be loyal to the United States</string>
+    <string name="answer53">▪ give up loyalty to other countries\n▪ defend the Constitution and laws of the United States\n▪ obey the laws of the United States\n▪ serve in the U.S. military (if needed)\n▪ serve (do important work for) the nation (if needed)\n▪ be loyal to the United States</string>
     
     <string name="number54">54.</string>
     <string name="question54">How old do citizens have to be to vote for President?*</string>
@@ -229,16 +224,7 @@
     
     <string name="number55">55.</string>
     <string name="question55">What are two ways that Americans can participate in their democracy?</string>
-    <string name="answer55">▪ vote\n
-							▪ join a political party\n
-							▪ help with a campaign\n
-							▪ join a civic group\n
-							▪ join a community group\n
-							▪ give an elected official your opinion on an issue\n
-							▪ call Senators and Representatives\n
-							▪ publicly support or oppose an issue or policy\n
-							▪ run for office\n
-							▪ write to a newspaper\n</string>
+    <string name="answer55">▪ vote\n▪ join a political party\n▪ help with a campaign\n▪ join a civic group\n▪ join a community group\n▪ give an elected official your opinion on an issue\n▪ call Senators and Representatives\n▪ publicly support or oppose an issue or policy\n▪ run for office\n▪ write to a newspaper\n</string>
     
     <string name="number56">56.</string>
     <string name="question56">When is the last day you can send in federal income tax forms?*</string>
@@ -250,12 +236,7 @@
     
     <string name="number58">58.</string>
     <string name="question58">What is one reason colonists came to America?</string>
-    <string name="answer58">▪ freedom\n
-							▪ political liberty\n
-							▪ religious freedom\n
-							▪ economic opportunity\n
-							▪ practice their religion\n
-							▪ escape persecution</string>
+    <string name="answer58">▪ freedom\n▪ political liberty\n▪ religious freedom\n▪ economic opportunity\n▪ practice their religion\n▪ escape persecution</string>
     
     <string name="number59">59.</string>
     <string name="question59">Who lived in America before the Europeans arrived?</string>
@@ -267,9 +248,7 @@
     
     <string name="number61">61.</string>
     <string name="question61">Why did the colonists fight the British?</string>
-    <string name="answer61">▪ because of high taxes (taxation without representation)\n
-							▪ because the British army stayed in their houses (boarding, quartering)\n
-							▪ because they didn’t have self-government</string>
+    <string name="answer61">▪ because of high taxes (taxation without representation)\n▪ because the British army stayed in their houses (boarding, quartering)\n▪ because they didn’t have self-government</string>
     
     <string name="number62">62.</string>
     <string name="question62">Who wrote the Declaration of Independence?</string>
@@ -281,19 +260,7 @@
     
     <string name="number64">64.</string>
     <string name="question64">There were 13 original states. Name three.</string>
-    <string name="answer64">▪ New Hampshire\n
-							▪ Massachusetts\n
-							▪ Rhode Island\n
-							▪ Connecticut\n
-							▪ New York\n
-							▪ New Jersey\n
-							▪ Pennsylvania\n
-							▪ Delaware\n
-							▪ Maryland\n
-							▪ Virginia\n
-							▪ North Carolina\n
-							▪ South Carolina\n
-							▪ Georgia</string>
+    <string name="answer64">▪ New Hampshire\n▪ Massachusetts\n▪ Rhode Island\n▪ Connecticut\n▪ New York\n▪ New Jersey\n▪ Pennsylvania\n▪ Delaware\n▪ Maryland\n▪ Virginia\n▪ North Carolina\n▪ South Carolina\n▪ Georgia</string>
     
     <string name="number65">65.</string>
     <string name="question65">What happened at the Constitutional Convention?</string>
@@ -305,18 +272,11 @@
     
     <string name="number67">67.</string>
     <string name="question67">The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.</string>
-    <string name="answer67">▪ (James) Madison\n
-							▪ (Alexander) Hamilton\n
-							▪ (John) Jay\n
-							▪ Publius</string>
+    <string name="answer67">▪ (James) Madison\n▪ (Alexander) Hamilton\n▪ (John) Jay\n▪ Publius</string>
     
     <string name="number68">68.</string>
     <string name="question68">What is one thing Benjamin Franklin is famous for?</string>
-    <string name="answer68">▪ U.S. diplomat\n
-							▪ oldest member of the Constitutional Convention\n
-							▪ first Postmaster General of the United States\n
-							▪ writer of “Poor Richard’s Almanac”\n
-							▪ started the first free libraries</string>
+    <string name="answer68">▪ U.S. diplomat\n▪ oldest member of the Constitutional Convention\n▪ first Postmaster General of the United States\n▪ writer of “Poor Richard’s Almanac”\n▪ started the first free libraries</string>
     
     <string name="number69">69.</string>
     <string name="question69">Who is the “Father of Our Country”?</string>
@@ -332,10 +292,7 @@
     
     <string name="number72">72.</string>
     <string name="question72">Name one war fought by the United States in the 1800s.</string>
-    <string name="answer72">▪ War of 1812\n
-							▪ Mexican-American War\n
-							▪ Civil War\n
-							▪ Spanish-American War</string>
+    <string name="answer72">▪ War of 1812\n▪ Mexican-American War\n▪ Civil War\n▪ Spanish-American War</string>
     
     <string name="number73">73.</string>
     <string name="question73">Name the U.S. war between the North and the South.</string>
@@ -343,22 +300,15 @@
     
     <string name="number74">74.</string>
     <string name="question74">Name one problem that led to the Civil War.</string>
-    <string name="answer74">▪ slavery\n
-							▪ economic reasons\n
-							▪ states’ rights</string>
+    <string name="answer74">▪ slavery\n▪ economic reasons\n▪ states’ rights</string>
     
     <string name="number75">75.</string>
     <string name="question75">What was one important thing that Abraham Lincoln did?*</string>
-    <string name="answer75">▪ freed the slaves (Emancipation Proclamation)\n
-							▪ saved (or preserved) the Union\n
-							▪ led the United States during the Civil War</string>
+    <string name="answer75">▪ freed the slaves (Emancipation Proclamation)\n▪ saved (or preserved) the Union\n▪ led the United States during the Civil War</string>
     
     <string name="number76">76.</string>
     <string name="question76">What did the Emancipation Proclamation do?</string>
-    <string name="answer76">▪ freed the slaves\n
-							▪ freed slaves in the Confederacy\n
-							▪ freed slaves in the Confederate states\n
-							▪ freed slaves in most Southern states</string>
+    <string name="answer76">▪ freed the slaves\n▪ freed slaves in the Confederacy\n▪ freed slaves in the Confederate states\n▪ freed slaves in most Southern states</string>
     
     <string name="number77">77.</string>
     <string name="question77">What did Susan B. Anthony do?</string>
@@ -366,11 +316,7 @@
     
     <string name="number78">78.</string>
     <string name="question78">Name one war fought by the United States in the 1900s.*</string>
-    <string name="answer78">▪ World War I\n
-							▪ World War II\n
-							▪ Korean War\n
-							▪ Vietnam War\n
-							▪ (Persian) Gulf War</string>
+    <string name="answer78">▪ World War I\n▪ World War II\n▪ Korean War\n▪ Vietnam War\n▪ (Persian) Gulf War</string>
     
     <string name="number79">79.</string>
     <string name="question79">Who was President during World War I?</string>
@@ -406,28 +352,7 @@
     
     <string name="number87">87.</string>
     <string name="question87">Name one American Indian tribe in the United States.</string>
-    <string name="answer87">▪ Cherokee\n
-							▪ Navajo\n
-							▪ Sioux\n
-							▪ Chippewa\n
-							▪ Choctaw\n
-							▪ Pueblo\n
-							▪ Apache\n
-							▪ Iroquois\n
-							▪ Creek\n
-							▪ Blackfeet\n
-							▪ Seminole\n
-							▪ Cheyenne\n
-							▪ Arawak\n
-							▪ Shawnee\n
-							▪ Mohegan\n
-							▪ Huron\n
-							▪ Oneida\n
-							▪ Lakota\n
-							▪ Crow\n
-							▪ Teton\n
-							▪ Hopi\n
-							▪ Inuit</string>
+    <string name="answer87">[USCIS Officers will be supplied with a list of federally recognized American Indian tribes.]\n▪ Cherokee\n▪ Navajo\n▪ Sioux\n▪ Chippewa\n▪ Choctaw\n▪ Pueblo\n▪ Apache\n▪ Iroquois\n▪ Creek\n▪ Blackfeet\n▪ Seminole\n▪ Cheyenne\n▪ Arawak\n▪ Shawnee\n▪ Mohegan\n▪ Huron\n▪ Oneida\n▪ Lakota\n▪ Crow\n▪ Teton\n▪ Hopi\n▪ Inuit</string>
     
     <string name="number88">88.</string>
     <string name="question88">Name one of the two longest rivers in the United States.</string>
@@ -443,34 +368,15 @@
     
     <string name="number91">91.</string>
     <string name="question91">Name one U.S. territory.</string>
-    <string name="answer91">▪ Puerto Rico\n
-							▪ U.S. Virgin Islands\n
-							▪ American Samoa\n
-							▪ Northern Mariana Islands\n
-							▪ Guam</string>
+    <string name="answer91">▪ Puerto Rico\n▪ U.S. Virgin Islands\n▪ American Samoa\n▪ Northern Mariana Islands\n▪ Guam</string>
     
     <string name="number92">92.</string>
     <string name="question92">Name one state that borders Canada.</string>
-    <string name="answer92">▪ Maine\n
-							▪ New Hampshire\n
-							▪ Vermont\n
-							▪ New York\n
-							▪ Pennsylvania\n
-							▪ Ohio\n
-							▪ Michigan\n
-							▪ Minnesota\n
-							▪ North Dakota\n
-							▪ Montana\n
-							▪ Idaho\n
-							▪ Washington\n
-							▪ Alaska</string>
+    <string name="answer92">▪ Maine\n▪ New Hampshire\n▪ Vermont\n▪ New York\n▪ Pennsylvania\n▪ Ohio\n▪ Michigan\n▪ Minnesota\n▪ North Dakota\n▪ Montana\n▪ Idaho\n▪ Washington\n▪ Alaska</string>
     
     <string name="number93">93.</string>
     <string name="question93">Name one state that borders Mexico.</string>
-    <string name="answer93">▪ California\n
-							▪ Arizona\n
-							▪ New Mexico\n
-							▪ Texas</string>
+    <string name="answer93">▪ California\n▪ Arizona\n▪ New Mexico\n▪ Texas</string>
     
     <string name="number94">94.</string>
     <string name="question94">What is the capital of the United States?*</string>
@@ -478,9 +384,7 @@
     
     <string name="number95">95.</string>
     <string name="question95">Where is the Statue of Liberty?*</string>
-    <string name="answer95">▪ New York (Harbor)\n
-							▪ Liberty Island\n
-							 [Also acceptable are New Jersey, near New York City, and on the Hudson (River).]</string>
+    <string name="answer95">▪ New York (Harbor)\n▪ Liberty Island\n[Also acceptable are New Jersey, near New York City, and on the Hudson (River).]</string>
     
     <string name="number96">96.</string>
     <string name="question96">Why does the flag have 13 stripes?</string>
@@ -488,9 +392,7 @@
     
     <string name="number97">97.</string>
     <string name="question97">Why does the flag have 50 stars?*</string>
-    <string name="answer97">▪ because there is one star for each state\n
-							▪ because each star represents a state\n
-							▪ because there are 50 states</string>
+    <string name="answer97">▪ because there is one star for each state\n▪ because each star represents a state\n▪ because there are 50 states</string>
     
     <string name="number98">98.</string>
     <string name="question98">What is the name of the national anthem?</string>

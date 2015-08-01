@@ -29,13 +29,13 @@ public class MainActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> arg0, View arg1, int position,	long arg3) {
 				// TODO Auto-generated method stub
+				if(position==0) return;
 				if(mp.isPlaying()){  
 					mp.stop();
 				} 
 
 				try {
-					mp.reset();		
-					position++;
+					mp.reset();	
 					trackName = "track"+ position + ".mp3";
 					afd = getAssets().openFd(trackName);
 					mp.setDataSource(afd.getFileDescriptor(),afd.getStartOffset(),afd.getLength());

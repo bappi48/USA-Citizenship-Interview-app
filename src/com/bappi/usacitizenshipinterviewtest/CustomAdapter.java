@@ -58,13 +58,19 @@ public class CustomAdapter extends BaseAdapter {
 	@Override
 	public View getView(int position, View view, ViewGroup parent) {
 		// TODO Auto-generated method stub
+		
+				
 		Holder holder = new Holder();
 		View rowView = inflater.inflate(R.layout.listitem, null); 
 		holder.txtNum = (TextView) rowView.findViewById(R.id.number);
 		holder.txtQuestion = (TextView) rowView.findViewById(R.id.question);
 		holder.txtAnswer = (TextView) rowView.findViewById(R.id.answer);
 		
-		position++;
+		//position++;
+		if(position==0){			
+			holder.txtQuestion.setText(R.string.only_study);
+			return rowView;
+		}
 		
 		strNum = "number" + position;
 		strQuestion = "question"+position;
