@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >    
+    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/pass_text"
+	        android:textAppearance="?android:attr/textAppearanceMedium"/>
+	    
+	    <Button 
+	        android:id="@+id/gotoquestion"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/button_gotoquestion"
+	        android:textStyle="bold"
+	        android:textAppearance="?android:attr/textAppearanceLarge"/>
+	    
+	    <TextView 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/select_state"
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:textStyle="bold"/>                                                                        
+	    <Spinner 
+	        android:id="@+id/state_spinner"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"/>
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        <TextView 
+	            android:id="@+id/bold_capital"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/capital"
+	            android:textStyle="bold"
+	            android:textAppearance="?android:attr/textAppearanceLarge"/>
+	        <TextView 
+		        android:id="@+id/state_capital"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:layout_toRightOf="@id/bold_capital"/>
+	    </RelativeLayout>
+	    
+	    
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        <TextView 
+	            android:id="@+id/bold_senator"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/senator"
+	            android:textStyle="bold"
+	            android:textAppearance="?android:attr/textAppearanceLarge"/>
+	        
+	        <TextView 
+		        android:id="@+id/state_senator"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:layout_toRightOf="@id/bold_senator"/>
+	        
+	    </RelativeLayout>
+	    
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        <TextView 
+	            android:id="@+id/bold_governor"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/governor"
+	            android:textStyle="bold"
+	            android:textAppearance="?android:attr/textAppearanceLarge"/>
+	        <TextView 
+		        android:id="@+id/state_governor"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:layout_toRightOf="@id/bold_governor"/>
+	    </RelativeLayout>
+	    
+	    <RelativeLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content">
+	        <TextView 
+	            android:id="@+id/bold_representative"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/representative"
+	            android:textStyle="bold"
+	            android:textAppearance="?android:attr/textAppearanceLarge"/>
+	        <TextView 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/find_representative" 
+		        android:textAppearance="?android:attr/textAppearanceLarge"
+		        android:layout_below="@id/bold_representative"
+		        android:autoLink="web"/>
+	    </RelativeLayout>  
+	
+	</LinearLayout>
+    
+
+</ScrollView>

@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">US Citizenship Test 2015</string>
+    <string name="action_bar_title">US Citizenship Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_gotoquestion">All Questions \u0026 Answers With Audio</string>
+    <string name="select_state">\nSelect Your State:</string>
+    <string name="pass_text">An applicant only has to answer 6 out of 10 questions correctly to pass the civics portion of the naturalization test.\n</string>
+    
+    <string name="capital">\nCapital:\u0020</string>
+    <string name="senator">Senator:\u0020</string>
+    <string name="governor">Governor:\u0020</string>
+    <string name="representative">\nU.S. Representative:\u0020</string>
+    <string name="find_representative">Please Visit: http://www.house.gov/representatives/find/</string>
+    
+    <string-array name = "question_answer_list">
+        
+        <item >""</item>
+        <item >* If you are 65 years old or older and have been a legal permanent resident of the United States for 20 or more years, you may study just the questions that have been marked with an asterisk (*).</item>
+        <item >""</item>
+        <item >1.</item>
+	    <item >What is the supreme law of the land?</item>
+	    <item >▪ the Constitution</item>
+	    <item >2.</item>
+	    <item >What does the Constitution do?</item>
+	    <item > ▪ sets up the government\n▪ defines the government\n▪ protects basic rights of Americans</item>
+	    <item >3.</item>
+	    <item >The idea of self-government is in the first three words of the Constitution. What are these words?</item>
+	    <item >▪ We the People</item>
+	    <item >4.</item>
+	    <item >What is an amendment?</item>
+	    <item >▪ a change (to the Constitution)\n▪ an addition (to the Constitution)</item>
+	    <item >5.</item>
+	    <item >What do we call the first ten amendments to the Constitution?</item>
+	    <item >▪ the Bill of Rights</item>
+	    <item >6.</item>
+	    <item >What is one right or freedom from the First Amendment?*</item>
+	    <item >▪ speech\n▪ religion\n▪ assembly\n▪ press\n▪ petition the government</item>
+	    <item >7.</item>
+	    <item >How many amendments does the Constitution have?</item>
+	    <item >▪ twenty-seven (27)</item>
+	    <item >8.</item>
+	    <item >What did the Declaration of Independence do?</item>
+	    <item >▪ announced our independence (from Great Britain)\n▪ declared our independence (from Great Britain)\n▪ said that the United States is free (from Great Britain)</item>
+	    <item >9.</item>
+	    <item >What are two rights in the Declaration of Independence?</item>
+	    <item >▪ life\n▪ liberty\n▪ pursuit of happiness</item>
+	    <item >10.</item>
+	    <item >What is freedom of religion?</item>
+	    <item >▪ You can practice any religion, or not practice a religion.</item>
+	    <item >11.</item>
+	    <item >What is the economic system in the United States?*</item>
+	    <item >▪ capitalist economy\n▪ market economy</item>
+	    <item >12.</item>
+	    <item >What is the “rule of law”?</item>
+	    <item >▪ Everyone must follow the law.\n▪ Leaders must obey the law.\n▪ Government must obey the law.\n▪ No one is above the law. </item>
+	    <item >13.</item>
+	    <item >Name one branch or part of the government.*</item>
+	    <item >▪ Congress\n▪ legislative\n▪ President\n▪ executive\n▪ the courts\n▪ judicial</item>
+	    <item >14.</item>
+	    <item >What stops one branch of government from becoming too powerful?</item>
+	    <item >▪ checks and balances\n▪ separation of powers</item>
+	    <item >15.</item>
+	    <item >Who is in charge of the executive branch?</item>
+	    <item >▪ the President</item>
+	    <item >16.</item>
+	    <item >Who makes federal laws?</item>
+	    <item >▪ Congress\n▪ Senate and House (of Representatives)\n▪ (U.S. or national) legislature</item>
+	    <item >17.</item>
+	    <item >What are the two parts of the U.S. Congress?*</item>
+	    <item >▪ the Senate and House (of Representatives)</item>
+	    <item >18.</item>
+	    <item >How many U.S. Senators are there?</item>
+	    <item >▪ one hundred (100)</item>
+	    <item >19.</item>
+	    <item >We elect a U.S. Senator for how many years?</item>
+	    <item >▪ six (6)</item>
+	    <item >20.</item>
+	    <item >Who is one of your state’s U.S. Senators now?*</item>
+	    <item >▪ [Answer is on 1st Page] \n\nAnswers will vary. [District of Columbia residents and residents of U.S. territories should answer that D.C. (or the territory where the applicant lives) has no U.S. Senators.]</item>
+	    <item >21.</item>
+	    <item >The House of Representatives has how many voting members?</item>
+	    <item >▪ four hundred thirty-five (435)</item>
+	    <item >22.</item>
+	    <item >We elect a U.S. Representative for how many years?</item>
+	    <item >▪ two (2)</item>
+	    <item >23.</item>
+	    <item >Name your U.S. Representative.</item>
+	    <item >▪ [Answer is on 1st Page] \n\nAnswers will vary. [Residents of territories with nonvoting Delegates or Resident Commissioners may provide the name of that Delegate or Commissioner. Also acceptable is any statement that the territory has no (voting) Representatives in Congress.]</item>
+	    <item >24.</item>
+	    <item >Who does a U.S. Senator represent?</item>
+	    <item >▪ all people of the state</item>
+	    <item >25.</item>
+	    <item >Why do some states have more Representatives than other states?</item>
+	    <item >▪ (because of) the state’s population\n▪ (because) they have more people\n▪ (because) some states have more people</item>
+	    <item >26.</item>
+	    <item >We elect a President for how many years?</item>
+	    <item >▪ four (4)</item>
+	    <item >27.</item>
+	    <item >In what month do we vote for President?*</item>
+	    <item >▪ November</item>
+	    <item >28.</item>
+	    <item >What is the name of the President of the United States now?*</item>
+	    <item >▪ Barack Obama\n▪ Obama</item>
+	    <item >29.</item>
+	    <item >What is the name of the Vice President of the United States now?</item>
+	    <item >▪ Joseph R. Biden, Jr.\n▪ Joe Biden\n▪ Biden</item>
+	    <item >30.</item>
+	    <item >If the President can no longer serve, who becomes President?</item>
+	    <item >▪ the Vice President</item>
+	    <item >31.</item>
+	    <item >If both the President and the Vice President can no longer serve, who becomes President?</item>
+	    <item >▪ the Speaker of the House</item>
+	    <item >32.</item>
+	    <item >Who is the Commander in Chief of the military?</item>
+	    <item >▪ the President</item>
+	    <item >33.</item>
+	    <item >Who signs bills to become laws?</item>
+	    <item >▪ the President</item>
+	    <item >34.</item>
+	    <item >Who vetoes bills?</item>
+	    <item >▪ the President</item>
+	    <item >35.</item>
+	    <item >What does the President’s Cabinet do?</item>
+	    <item >▪ advises the President</item>
+	    <item >36.</item>
+	    <item >What are two Cabinet-level positions?</item>
+	    <item >▪ Secretary of Agriculture\n▪ Secretary of Commerce\n▪ Secretary of Defense\n▪ Secretary of Education\n▪ Secretary of Energy\n▪ Secretary of Health and Human Services\n▪ Secretary of Homeland Security\n▪ Secretary of Housing and Urban Development\n▪ Secretary of the Interior\n▪ Secretary of Labor\n▪ Secretary of State\n▪ Secretary of Transportation\n▪ Secretary of the Treasury\n▪ Secretary of Veterans Affairs\n▪ Attorney General\n▪ Vice President</item>
+	    <item >37.</item>
+	    <item >What does the judicial branch do?</item>
+	    <item >▪ reviews laws\n▪ explains laws\n▪ resolves disputes (disagreements)\n▪ decides if a law goes against the Constitution</item>
+	    <item >38.</item>
+	    <item >What is the highest court in the United States?</item>
+	    <item >▪ the Supreme Court</item>
+	    <item >39.</item>
+	    <item >How many justices are on the Supreme Court?</item>
+	    <item >▪ nine (9)</item>
+	    <item >40.</item>
+	    <item >Who is the Chief Justice of the United States now?</item>
+	    <item >▪ John Roberts (John G. Roberts, Jr.)</item>
+	    <item >41.</item>
+	    <item >Under our Constitution, some powers belong to the federal government. What is one power of the federal government?</item>
+	    <item >▪ to print money\n▪ to declare war\n▪ to create an army\n▪ to make treaties</item>
+	    <item >42.</item>
+	    <item >Under our Constitution, some powers belong to the states. What is one power of the states?</item>
+	    <item >▪ provide schooling and education\n▪ provide protection (police)\n▪ provide safety (fire departments)\n▪ give a driver’s license\n▪ approve zoning and land use</item>
+	    <item >43.</item>
+	    <item >Who is the Governor of your state now?</item>
+	    <item >▪ [Answer is on 1st Page] \n\nAnswers will vary. [District of Columbia residents should answer that D.C. does not have a Governor.]</item>
+	    <item >44.</item>
+	    <item >What is the capital of your state?*</item>
+	    <item >▪ [Answer is on 1st Page] \n\nAnswers will vary. [District of Columbia residents should answer that D.C. is not a state and does not have a capital. Residents of U.S. territories should name the capital of the territory.]</item>
+	    <item >45.</item>
+	    <item >What are the two major political parties in the United States?*</item>
+	    <item >▪ Democratic and Republican</item>
+	    <item >46.</item>
+	    <item >What is the political party of the President now?</item>
+	    <item >▪ Democratic (Party)</item>
+	    <item >47.</item>
+	    <item >What is the name of the Speaker of the House of Representatives now?</item>
+	    <item >▪ (John) Boehner</item>
+	    <item >48.</item>
+	    <item >There are four amendments to the Constitution about who can vote. Describe one of them.</item>
+	    <item >▪ Citizens eighteen (18) and older (can vote).\n▪ You don’t have to pay (a poll tax) to vote.\n▪ Any citizen can vote. (Women and men can vote.)\n▪ A male citizen of any race (can vote).</item>
+	    <item >49.</item>
+	    <item >What is one responsibility that is only for United States citizens?*</item>
+	    <item >▪ serve on a jury\n▪ vote in a federal election</item>
+	    <item >50.</item>
+	    <item >Name one right only for United States citizens.</item>
+	    <item >▪ vote in a federal election\n▪ run for federal office</item>
+	    <item >51.</item>
+	    <item >What are two rights of everyone living in the United States?</item>
+	    <item >▪ freedom of expression\n▪ freedom of speech\n▪ freedom of assembly\n▪ freedom to petition the government\n▪ freedom of worship\n▪ the right to bear arms</item>
+	    <item >52.</item>
+	    <item >What do we show loyalty to when we say the Pledge of Allegiance?</item>
+	    <item >▪ the United States\n▪ the flag</item>
+	    <item >53.</item>
+	    <item >What is one promise you make when you become a United States citizen?</item>
+	    <item >▪ give up loyalty to other countries\n▪ defend the Constitution and laws of the United States\n▪ obey the laws of the United States\n▪ serve in the U.S. military (if needed)\n▪ serve (do important work for) the nation (if needed)\n▪ be loyal to the United States</item>
+	    <item >54.</item>
+	    <item >How old do citizens have to be to vote for President?*</item>
+	    <item >▪ eighteen (18) and older</item>
+	    <item >55.</item>
+	    <item >What are two ways that Americans can participate in their democracy?</item>
+	    <item >▪ vote\n▪ join a political party\n▪ help with a campaign\n▪ join a civic group\n▪ join a community group\n▪ give an elected official your opinion on an issue\n▪ call Senators and Representatives\n▪ publicly support or oppose an issue or policy\n▪ run for office\n▪ write to a newspaper\n</item>
+	    <item >56.</item>
+	    <item >When is the last day you can send in federal income tax forms?*</item>
+	    <item >▪ April 15</item>
+	    <item >57.</item>
+	    <item >When must all men register for the Selective Service?</item>
+	    <item >▪ at age eighteen (18)\n▪ between eighteen (18) and twenty-six (26)</item>
+	    <item >58.</item>
+	    <item >What is one reason colonists came to America?</item>
+	    <item >▪ freedom\n▪ political liberty\n▪ religious freedom\n▪ economic opportunity\n▪ practice their religion\n▪ escape persecution</item>
+	    <item >59.</item>
+	    <item >Who lived in America before the Europeans arrived?</item>
+	    <item >▪ American Indians\n▪ Native Americans</item>
+	    <item >60.</item>
+	    <item >What group of people was taken to America and sold as slaves?</item>
+	    <item >▪ Africans\n▪ people from Africa</item>
+	    <item >61.</item>
+	    <item >Why did the colonists fight the British?</item>
+	    <item >▪ because of high taxes (taxation without representation)\n▪ because the British army stayed in their houses (boarding, quartering)\n▪ because they didn’t have self-government</item>
+	    <item >62.</item>
+	    <item >Who wrote the Declaration of Independence?</item>
+	    <item >▪ (Thomas) Jefferson</item>
+	    <item >63.</item>
+	    <item >When was the Declaration of Independence adopted?</item>
+	    <item >▪ July 4, 1776</item>
+	    <item >64.</item>
+	    <item >There were 13 original states. Name three.</item>
+	    <item >▪ New Hampshire\n▪ Massachusetts\n▪ Rhode Island\n▪ Connecticut\n▪ New York\n▪ New Jersey\n▪ Pennsylvania\n▪ Delaware\n▪ Maryland\n▪ Virginia\n▪ North Carolina\n▪ South Carolina\n▪ Georgia</item>
+	    <item >65.</item>
+	    <item >What happened at the Constitutional Convention?</item>
+	    <item >▪ The Constitution was written.\n▪ The Founding Fathers wrote the Constitution.</item>
+	    <item >66.</item>
+	    <item >When was the Constitution written?</item>
+	    <item >▪ 1787</item>
+	    <item >67.</item>
+	    <item >The Federalist Papers supported the passage of the U.S. Constitution. Name one of the writers.</item>
+	    <item >▪ (James) Madison\n▪ (Alexander) Hamilton\n▪ (John) Jay\n▪ Publius</item>
+	    <item >68.</item>
+	    <item >What is one thing Benjamin Franklin is famous for?</item>
+	    <item >▪ U.S. diplomat\n▪ oldest member of the Constitutional Convention\n▪ first Postmaster General of the United States\n▪ writer of “Poor Richard’s Almanac”\n▪ started the first free libraries</item>
+	    <item >69.</item>
+	    <item >Who is the “Father of Our Country”?</item>
+	    <item >▪ (George) Washington</item>
+	    <item >70.</item>
+	    <item >Who was the first President?*</item>
+	    <item >▪ (George) Washington</item>
+	    <item >71.</item>
+	    <item >What territory did the United States buy from France in 1803?</item>
+	    <item >▪ the Louisiana Territory\n▪ Louisiana</item>
+	    <item >72.</item>
+	    <item >Name one war fought by the United States in the 1800s.</item>
+	    <item >▪ War of 1812\n▪ Mexican-American War\n▪ Civil War\n▪ Spanish-American War</item>
+	    <item >73.</item>
+	    <item >Name the U.S. war between the North and the South.</item>
+	    <item >▪ the Civil War\n▪ the War between the States</item>
+	    <item >74.</item>
+	    <item >Name one problem that led to the Civil War.</item>
+	    <item >▪ slavery\n▪ economic reasons\n▪ states’ rights</item>
+	    <item >75.</item>
+	    <item >What was one important thing that Abraham Lincoln did?*</item>
+	    <item >▪ freed the slaves (Emancipation Proclamation)\n▪ saved (or preserved) the Union\n▪ led the United States during the Civil War</item>
+	    <item >76.</item>
+	    <item >What did the Emancipation Proclamation do?</item>
+	    <item >▪ freed the slaves\n▪ freed slaves in the Confederacy\n▪ freed slaves in the Confederate states\n▪ freed slaves in most Southern states</item>
+	    <item >77.</item>
+	    <item >What did Susan B. Anthony do?</item>
+	    <item >▪ fought for women’s rights\n▪ fought for civil rights</item>
+	    <item >78.</item>
+	    <item >Name one war fought by the United States in the 1900s.*</item>
+	    <item >▪ World War I\n▪ World War II\n▪ Korean War\n▪ Vietnam War\n▪ (Persian) Gulf War</item>
+	    <item >79.</item>
+	    <item >Who was President during World War I?</item>
+	    <item >▪ (Woodrow) Wilson</item>
+	    <item >80.</item>
+	    <item >Who was President during the Great Depression and World War II?</item>
+	    <item >▪ (Franklin) Roosevelt</item>
+	    <item >81.</item>
+	    <item >Who did the United States fight in World War II?</item>
+	    <item >▪ Japan, Germany, and Italy</item>
+	    <item >82.</item>
+	    <item >Before he was President, Eisenhower was a general. What war was he in?</item>
+	    <item >▪ World War II</item>
+	    <item >83.</item>
+	    <item >During the Cold War, what was the main concern of the United States?</item>
+	    <item >▪ Communism</item>
+	    <item >84.</item>
+	    <item >What movement tried to end racial discrimination?</item>
+	    <item >▪ civil rights (movement)</item>
+	    <item >85.</item>
+	    <item >What did Martin Luther King, Jr. do?*</item>
+	    <item >▪ fought for civil rights\n▪ worked for equality for all Americans</item>
+	    <item >86.</item>
+	    <item >What major event happened on September 11, 2001, in the United States?</item>
+	    <item >▪ Terrorists attacked the United States.</item>
+	    <item >87.</item>
+	    <item >Name one American Indian tribe in the United States.</item>
+	    <item >[USCIS Officers will be supplied with a list of federally recognized American Indian tribes.]\n▪ Cherokee\n▪ Navajo\n▪ Sioux\n▪ Chippewa\n▪ Choctaw\n▪ Pueblo\n▪ Apache\n▪ Iroquois\n▪ Creek\n▪ Blackfeet\n▪ Seminole\n▪ Cheyenne\n▪ Arawak\n▪ Shawnee\n▪ Mohegan\n▪ Huron\n▪ Oneida\n▪ Lakota\n▪ Crow\n▪ Teton\n▪ Hopi\n▪ Inuit</item>
+	    <item >88.</item>
+	    <item >Name one of the two longest rivers in the United States.</item>
+	    <item >▪ Missouri (River)\n▪ Mississippi (River)</item>
+	    <item >89.</item>
+	    <item >What ocean is on the West Coast of the United States?</item>
+	    <item >▪ Pacific (Ocean)</item>
+	    <item >90.</item>
+	    <item >What ocean is on the East Coast of the United States?</item>
+	    <item >▪ Atlantic (Ocean)</item>
+	    <item >91.</item>
+	    <item >Name one U.S. territory.</item>
+	    <item >▪ Puerto Rico\n▪ U.S. Virgin Islands\n▪ American Samoa\n▪ Northern Mariana Islands\n▪ Guam</item>
+	    <item >92.</item>
+	    <item >Name one state that borders Canada.</item>
+	    <item >▪ Maine\n▪ New Hampshire\n▪ Vermont\n▪ New York\n▪ Pennsylvania\n▪ Ohio\n▪ Michigan\n▪ Minnesota\n▪ North Dakota\n▪ Montana\n▪ Idaho\n▪ Washington\n▪ Alaska</item>
+	    <item >93.</item>
+	    <item >Name one state that borders Mexico.</item>
+	    <item >▪ California\n▪ Arizona\n▪ New Mexico\n▪ Texas</item>
+	    <item >94.</item>
+	    <item >What is the capital of the United States?*</item>
+	    <item >▪ Washington, D.C.</item>
+	    <item >95.</item>
+	    <item >Where is the Statue of Liberty?*</item>
+	    <item >▪ New York (Harbor)\n▪ Liberty Island\n[Also acceptable are New Jersey, near New York City, and on the Hudson (River).]</item>
+	    <item >96.</item>
+	    <item >Why does the flag have 13 stripes?</item>
+	    <item >▪ because there were 13 original colonies\n▪ because the stripes represent the original colonies</item>
+	    <item >97.</item>
+	    <item >Why does the flag have 50 stars?*</item>
+	    <item >▪ because there is one star for each state\n▪ because each star represents a state\n▪ because there are 50 states</item>
+	    <item >98.</item>
+	    <item >What is the name of the national anthem?</item>
+	    <item >▪ The Star-Spangled Banner</item>
+	    <item >99.</item>
+	    <item >When do we celebrate Independence Day?*</item>
+	    <item >▪ July 4</item>
+	    <item >100.</item>
+	    <item >Name two national U.S. holidays.</item>
+	    <item >▪ New Year’s Day\n▪ Martin Luther King, Jr. Day\n▪ Presidents’ Day\n▪ Memorial Day\n▪ Independence Day\n▪ Labor Day\n▪ Columbus Day\n▪ Veterans Day\n▪ Thanksgiving\n▪ Christmas</item>
+	        
+	        
+        
+    </string-array>
+    
+    
+    
+    
+    <string-array name="states_name">
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Illinois</item>
+        <item>Indiana</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentucky</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississippi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennsylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wisconsin</item>
+        <item>Wyoming</item>
+    </string-array>
+    
+    <string-array name="state1">
+        <item>Montgomery</item>
+        <item>Richard Shelby, Jeff Sessions</item>
+        <item>Robert J. Bentley</item>
+    </string-array>
+    <string-array name="state2">
+        <item>Juneau</item>
+        <item>Dan Sullivan, Lisa Murkowski</item>
+        <item>Bill Walker</item>
+    </string-array>
+    <string-array name="state3">
+        <item>Phoenix</item>
+        <item>John McCain, Jeff Flake</item>
+        <item>Doug Ducey</item>
+    </string-array>
+    <string-array name="state4">
+        <item>Little Rock</item>
+        <item>Tom Cotton, John Boozman</item>
+        <item>Asa Hutchinson</item>
+    </string-array>
+    <string-array name="state5">
+        <item>Sacramento</item>
+        <item>Barbara Boxer, Dianne Feinstein</item>
+        <item>Jerry Brown</item>
+    </string-array>
+    <string-array name="state6">
+        <item>Denver</item>
+        <item>Michael Bennet, Cory Gardner</item>
+        <item>John Hickenlooper</item>
+    </string-array>
+    <string-array name="state7">
+        <item>Hartford</item>
+        <item>Chris Murphy, Richard Blumenthal</item>
+        <item>Dannel Malloy</item>
+    </string-array>
+    <string-array name="state8">
+        <item>Dover</item>
+        <item>Tom Carper, Chris Coons</item>
+        <item>Jack Markell</item>
+    </string-array>
+    <string-array name="state9">
+        <item>Tallahassee</item>
+        <item>Bill Nelson, Marco Rubio</item>
+        <item>Rick Scott</item>
+    </string-array>
+    <string-array name="state10">
+        <item>Atlanta</item>
+        <item>David Perdue, Johnny Isakson</item>
+        <item>Nathan Deal</item>
+    </string-array>
+    <string-array name="state11">
+        <item>Honolulu</item>
+        <item>Brian Schatz, Mazie Hirono</item>
+        <item>David Ige</item>
+    </string-array>
+    <string-array name="state12">
+        <item>Boise</item>
+        <item>Mike Crapo, Jim Risch</item>
+        <item>Butch Otter</item>
+    </string-array>
+    <string-array name="state13">
+        <item>Springfield</item>
+        <item>Dick Durbin, Mark Kirk</item>
+        <item>Bruce Rauner</item>
+    </string-array>
+    <string-array name="state14">
+        <item>Indianapolis</item>
+        <item>Dan Coats, Joe Donnelly</item>
+        <item>Mike Pence</item>
+    </string-array>
+    <string-array name="state15">
+        <item>Des Moines</item>
+        <item>Chuck Grassley, Joni Ernst</item>
+        <item>Terry Branstad</item>
+    </string-array>
+    <string-array name="state16">
+        <item>Topeka</item>
+        <item>Pat Roberts, Jerry Moran</item>
+        <item>Sam Brownback</item>
+    </string-array>
+    <string-array name="state17">
+        <item>Frankfort</item>
+        <item>Rand Paul, Mitch McConnell</item>
+        <item>Steve Beshear</item>
+    </string-array>
+    <string-array name="state18">
+        <item>Baton Rouge</item>
+        <item>David Vitter, Bill Cassidy</item>
+        <item>Bobby Jindal</item>
+    </string-array>
+    <string-array name="state19">
+        <item>Augusta</item>
+        <item>Susan Collins, Angus King</item>
+        <item>Paul LePage</item>
+    </string-array>
+    <string-array name="state20">
+        <item>Annapolis</item>
+        <item>Ben Cardin, Barbara Mikulski</item>
+        <item>Larry Hogan</item>
+    </string-array>
+    <string-array name="state21">
+        <item>Boston</item>
+        <item>Elizabeth Warren, Ed Markey</item>
+        <item>Charlie Baker</item>
+    </string-array>
+    <string-array name="state22">
+        <item>Lansing</item>
+        <item>Gary Peters, Debbie Stabenow</item>
+        <item>Rick Synder</item>
+    </string-array>
+    <string-array name="state23">
+        <item>St. Paul</item>
+        <item>Al Franken, Amy Klobuchar</item>
+        <item>Mark Dayton</item>
+    </string-array>
+    <string-array name="state24">
+        <item>Jackson</item>
+        <item>Roger Wicker, Thad Cochran</item>
+        <item>Phil Bryant</item>
+    </string-array>
+    <string-array name="state25">
+        <item>Jefferson City</item>
+        <item>Roy Blunt, Claire McCaskill</item>
+        <item>Jay Nixon</item>
+    </string-array>
+    <string-array name="state26">
+        <item>Helena</item>
+        <item>Jon Tester, Steve Daines</item>
+        <item>Steve Bullock</item>
+    </string-array>
+    <string-array name="state27">
+        <item>Lincoln</item>
+        <item>Deb Ficher, Ben Sasse</item>
+        <item>Pete Ricketts</item>
+    </string-array>
+    <string-array name="state28">
+        <item>Carson City</item>
+        <item>Dean Heller, Harry Reid</item>
+        <item>Brian Sandoval</item>
+    </string-array>
+    <string-array name="state29">
+        <item>Concord</item>
+        <item>Jeanne Shaheen, Kelly Ayotte</item>
+        <item>Maggie Hassan</item>
+    </string-array>
+    <string-array name="state30">
+        <item>Trenton</item>
+        <item>Cory Booker, Bob Menendez</item>
+        <item>Chris Christie</item>
+    </string-array>
+    <string-array name="state31">
+        <item>Santa Fe</item>
+        <item>Martin Heinrich, Tom Udall</item>
+        <item>Susana Martinez</item>
+    </string-array>
+    <string-array name="state32">
+        <item>Albany</item>
+        <item>Kirsten Gillibrand, Chuck Schumer</item>
+        <item>Andrew Cuomo</item>
+    </string-array>
+    <string-array name="state33">
+        <item>Raleigh</item>
+        <item>Richard Burr, Thom Tillis</item>
+        <item>Pat McCrory</item>
+    </string-array>
+    <string-array name="state34">
+        <item>Bismarck</item>
+        <item>John Hoeven, Heidi Heitkamp</item>
+        <item>Jack Dalrymple</item>
+    </string-array>
+    <string-array name="state35">
+        <item>Columbus</item>
+        <item>Rob Portman, Sherrod Brown</item>
+        <item>John Kasick</item>
+    </string-array>
+    <string-array name="state36">
+        <item>Oklahoma City</item>
+        <item>Jim Inhofe, James Lankford</item>
+        <item>Mary Fallin</item>
+    </string-array>
+    <string-array name="state37">
+        <item>Salem</item>
+        <item>Jeff Merkly, ron Wyden</item>
+        <item>Kate Brown</item>
+    </string-array>
+    <string-array name="state38">
+        <item>Harrisburg</item>
+        <item>Pat Toomey, Bob Cassey Jr.</item>
+        <item>Tom Wolf</item>
+    </string-array>
+    <string-array name="state39">
+        <item>Providence</item>
+        <item>Jack Reed, Sheldon Whitehouse</item>
+        <item>Gina Raimondo</item>
+    </string-array>
+    <string-array name="state40">
+        <item>Columbia</item>
+        <item>Lindsy Graham, Tim Scott</item>
+        <item>Nikki Haley</item>
+    </string-array>
+    <string-array name="state41">
+        <item>Pierre</item>
+        <item>Mike Rounds, John Thune</item>
+        <item>Dennis Daugaard</item>
+    </string-array>
+    <string-array name="state42">
+        <item>Nashville</item>
+        <item>Lamar Alexander, Bob Corker</item>
+        <item>Bill Haslam</item>
+    </string-array>
+    <string-array name="state43">
+        <item>Austin</item>
+        <item>John Cornyn, Ted Cruz</item>
+        <item>Greg Abbot</item>
+    </string-array>
+    <string-array name="state44">
+        <item>Salt Lake City</item>
+        <item>Orrin Hatch, Mike Lee</item>
+        <item>Gary Herbert</item>
+    </string-array>
+    <string-array name="state45">
+        <item>Montpelier</item>
+        <item>Patrick Leahy, Bernie Sanders</item>
+        <item>Peter Shumlin</item>
+    </string-array>
+    <string-array name="state46">
+        <item>Richmond</item>
+        <item>Mark Warner, Tim Kaine</item>
+        <item>Terry McAuliffe</item>
+    </string-array>
+    <string-array name="state47">
+        <item>Olympia</item>
+        <item>Patty Murray, Maria Cantwell</item>
+        <item>Jay Inslee</item>
+    </string-array>
+    <string-array name="state48">
+        <item>Charleston</item>
+        <item>Joe Manchin, Shelley Moore Capito</item>
+        <item>Earl Ray Tomblin</item>
+    </string-array>
+    <string-array name="state49">
+        <item>Madison</item>
+        <item>Ron Johnson, Tammy Baldwin</item>
+        <item>Scott Walker</item>
+    </string-array>
+    <string-array name="state50">
+        <item>Cheyenne</item>
+        <item>Mike Enzi, John Barrasso</item>
+        <item>Matt Mead</item>
+    </string-array>
+
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>
