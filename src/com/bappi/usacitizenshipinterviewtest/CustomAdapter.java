@@ -11,28 +11,23 @@ import android.widget.TextView;
 public class CustomAdapter extends BaseAdapter {
 
 	Context mainContext;
-	LayoutInflater inflater = null;
-	String strNum;
-	String strQuestion;
-	String strAnswer;
-	String packageName;
+	LayoutInflater inflater = null;	
     Resources resources;
-
+    String[] database;
 	
 	CustomAdapter(Context ctx){
-		mainContext = ctx;
-		packageName = mainContext.getPackageName();
+		mainContext = ctx;		
 		resources = mainContext.getResources();
 		inflater = (LayoutInflater) mainContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		database = resources.getStringArray(R.array.question_answer_list);
 		
 	}
-	
 	
 	
 	@Override
 	public int getCount() {
 		// TODO Auto-generated method stub
-		return 100;
+		return (database.length/3);
 	}
 
 	@Override
@@ -53,34 +48,21 @@ public class CustomAdapter extends BaseAdapter {
 		TextView txtAnswer;
 	}
 
-	//int resId = getResources().getIdentifier(aString, "string", packageName);
-	
+		
 	@Override
 	public View getView(int position, View view, ViewGroup parent) {
 		// TODO Auto-generated method stub
-		
-				
+						
 		Holder holder = new Holder();
 		View rowView = inflater.inflate(R.layout.listitem, null); 
 		holder.txtNum = (TextView) rowView.findViewById(R.id.number);
 		holder.txtQuestion = (TextView) rowView.findViewById(R.id.question);
 		holder.txtAnswer = (TextView) rowView.findViewById(R.id.answer);
-		
-		//position++;
-		if(position==0){			
-			holder.txtQuestion.setText(R.string.only_study);
-			return rowView;
-		}
-		
-		strNum = "number" + position;
-		strQuestion = "question"+position;
-		strAnswer = "answer"+position;
-		
-		holder.txtNum.setText(resources.getIdentifier(strNum, "string", packageName));
-		holder.txtQuestion.setText(resources.getIdentifier(strQuestion, "string", packageName));
-		holder.txtAnswer.setText(resources.getIdentifier(strAnswer, "string", packageName));
-		
-		
+				
+		holder.txtNum.setText(database[position*3 + 0]);
+		holder.txtQuestion.setText(database[position*3 + 1]);
+		holder.txtAnswer.setText(database[position*3 + 2]);
+			
 		return rowView;
 	}
 
