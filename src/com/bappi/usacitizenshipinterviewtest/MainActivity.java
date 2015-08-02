@@ -20,11 +20,13 @@ public class MainActivity extends Activity {
 	String stateName;
 	String[] data;
     Context context = this;
+    Intent intent;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.first_page_scroll_view);		
+		intent = new Intent(MainActivity.this, QuestionsActivity.class);
 		
 		final TextView txtCapital = (TextView) findViewById(R.id.state_capital);
 		final TextView txtSenator = (TextView) findViewById(R.id.state_senator);
@@ -74,9 +76,9 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent intent = new Intent(MainActivity.this, QuestionsActivity.class);
-				startActivity(intent);
+				// TODO Auto-generated method stub	
+				intent.setFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
+				startActivity(intent);				
 			}
 		});
 		

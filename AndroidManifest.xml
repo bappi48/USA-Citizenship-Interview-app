@@ -24,7 +24,8 @@
         </activity>
         <activity
             android:name="com.bappi.usacitizenshipinterviewtest.QuestionsActivity"
-            android:label="@string/action_bar_title" >
+            android:label="@string/action_bar_title" 
+            >
         </activity>
     </application>
 

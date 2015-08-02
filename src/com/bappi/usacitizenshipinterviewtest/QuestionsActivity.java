@@ -49,5 +49,18 @@ public class QuestionsActivity extends Activity {
 		});		
 		
 	}
+	@Override
+	protected void onPause() {
+		// TODO Auto-generated method stub
+		super.onPause();
+		if(mp.isPlaying()){
+			mp.stop();
+		}
+	}
+
+	
+	
+	
+	
 
 }
