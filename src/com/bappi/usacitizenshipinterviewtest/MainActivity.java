@@ -1,52 +1,61 @@
 package com.bappi.usacitizenshipinterviewtest;
 
-import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.WindowManager;
 import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ListView;
+import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.Spinner;
 import android.app.Activity;
-import android.content.res.AssetFileDescriptor;
+import android.content.Intent;
 
 public class MainActivity extends Activity {
 
-    final MediaPlayer mp = new MediaPlayer();
-    AssetFileDescriptor afd;
-    String trackName;
+    
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		setContentView(R.layout.main_view);		
+		setContentView(R.layout.first_page);		
 		
-		ListView listView = (ListView) findViewById(R.id.list);
-		listView.setAdapter(new CustomAdapter(getApplicationContext()));
-		
-		listView.setOnItemClickListener(new OnItemClickListener() {
-			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int position,	long arg3) {
-				// TODO Auto-generated method stub
-				if(position==0) return;
-				if(mp.isPlaying()){  
-					mp.stop();
-				} 
+		Spinner spin = (Spinner) findViewById(R.id.state_spinner);
+		ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+		        R.array.states_name, android.R.layout.simple_spinner_item);
+		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+		spin.setAdapter(adapter);
+		spin.setOnItemSelectedListener(new OnItemSelectedListener() {
 
-				try {
-					mp.reset();	
-					trackName = "track"+ position + ".mp3";
-					afd = getAssets().openFd(trackName);
-					mp.setDataSource(afd.getFileDescriptor(),afd.getStartOffset(),afd.getLength());
-					mp.prepare();
-					mp.start();
-				} catch (Exception e) {
-					
-				} 			
+			@Override
+			public void onItemSelected(AdapterView<?> arg0, View arg1,
+					int position, long arg3) {
+				// TODO Auto-generated method stub
 				
-			}			
+			}
+
+			@Override
+			public void onNothingSelected(AdapterView<?> arg0) {
+				// TODO Auto-generated method stub
+				
+			}
 			
 		});
+		
+		Button button = (Button) findViewById(R.id.gotoquestion);
+		button.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent intent = new Intent(MainActivity.this, QuestionsActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		
+		
 		
 	}
 
